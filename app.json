@@ -1,10 +1,9 @@
 {
   "expo": {
-    "name": "rn-expo-redbook",
-    "slug": "rn-expo-redbook",
+    "name": "rn-expo-redbook-ts",
+    "slug": "rn-expo-redbook-ts",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,16 +14,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon":"./assets/mipmap-xxhdpi/ic_launcher.png",
+      "backgroundColor": "#ffffff"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mipmap-xxhdpi/ic_launcher.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/mipmap-xxhdpi/ic_launcher.png"
     }
   }
 }
